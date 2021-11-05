@@ -13,7 +13,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*-moz-osx-font-smoothing: grayscale;*/
 }
 
 *,
@@ -87,7 +87,7 @@ main {
 
 .news__list {
   margin: 0 0 1rem 0;
-  padding: 0 1rem;
+  /*padding: 0 1rem;*/
   list-style: none;
 }
 
@@ -116,4 +116,7 @@ main {
 
   font-weight: bold;
   color: #222;
+}
+.hide{
+  display: none;
 }
