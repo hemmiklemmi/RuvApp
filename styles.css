@@ -59,6 +59,12 @@ main {
 .newsList__item {
   grid-column: span 1;
 }
+.newsList__clickedItem {
+  grid-column: span 3;
+}
+section section {
+  width: fit-content;
+}
 
 /* News */
 
@@ -87,14 +93,13 @@ main {
 
 .news__list {
   margin: 0 0 1rem 0;
-  /*padding: 0 1rem;*/
+  padding: 0 1rem;
   list-style: none;
 }
-
-.news__item a {
+.news a {
   display: block;
   color: #222;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -105,6 +110,7 @@ main {
   justify-content: space-between;
 
   padding: 1rem;
+  width: 25%;
 }
 
 .news__link {
@@ -117,6 +123,6 @@ main {
   font-weight: bold;
   color: #222;
 }
-.hide{
+.hide {
   display: none;
 }
