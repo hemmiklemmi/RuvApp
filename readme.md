@@ -1,6 +1,6 @@
 # Vefforritun 1, 2021, verkefni 9
 
-[Kynning í fyrirlestri](https://youtu.be/z-Z1u4FicgQ)
+https://jsverkefni9hoh36.netlify.app/ - Slóð á verkefni á Netlify
 
 Verkefni 9 snýst um að tengjast RESTful vefþjónustu sem skilar JSON gögnum með fréttum af ruv.is.
 
